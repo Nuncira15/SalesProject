@@ -22,12 +22,14 @@ public class FileGenerator {
 
         BufferedWriter writer = new BufferedWriter(new FileWriter("products.txt"));
 
-        for (int i = 1; i <= productsCount; i++) {
-            String product = i + ";" +
-                    RandomDataUtil.getRandomProductName() + ";" +
-                    (1000 + new Random().nextInt(9000));
+        String[] products = {
+                "Laptop", "Mouse", "Teclado", "Monitor", "Impresora"
+        };
 
-            writer.write(product);
+        for (int i = 0; i < products.length; i++) {
+            int price = 1000 + new Random().nextInt(9000);
+
+            writer.write((i + 1) + ";" + products[i] + ";" + price);
             writer.newLine();
         }
 
@@ -76,7 +78,7 @@ public class FileGenerator {
         Random random = new Random();
 
         for (int i = 0; i < randomSalesCount; i++) {
-            int productId = random.nextInt(10) + 1;
+            int productId = random.nextInt(5) + 1;
             int quantity = random.nextInt(20) + 1;
 
             writer.write(productId + ";" + quantity);

@@ -22,8 +22,9 @@ public class GenerateInfoFiles {
             FileGenerator.createProductsFile(10);
             FileGenerator.createSalesManInfoFile(5);
 
-            FileGenerator.createSalesMenFile(20, "Juan", 123);
-            FileGenerator.createSalesMenFile(15, "Maria", 456);
+            for (int i = 1; i <= 5; i++) {
+                FileGenerator.createSalesMenFile(20, "Seller" + i, i);
+            }
 
             System.out.println("Archivos generados correctamente");
 

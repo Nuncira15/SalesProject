@@ -1,0 +1,11 @@
+Conclusión del Proyecto
+
+Durante el desarrollo de este proyecto se lograron afianzar conceptos fundamentales de programación en Java, tales como la lectura y escritura de archivos planos, el uso de estructuras de datos como listas y mapas, y la aplicación de la programación orientada a objetos para modelar entidades del sistema.
+
+Además, se aprendió a organizar un proyecto de manera estructurada, separando responsabilidades en diferentes clases y paquetes, lo cual facilita el mantenimiento y la escalabilidad del código.
+
+En el ámbito profesional, este tipo de solución puede aplicarse en sistemas de análisis de ventas, procesamiento de datos empresariales y generación de reportes automatizados, los cuales son comunes en entornos empresariales.
+
+Durante el desarrollo se presentaron dificultades relacionadas con la consistencia de los datos, especialmente en la generación de identificadores de productos y vendedores, lo cual ocasionaba errores en el procesamiento. Estos problemas fueron solucionados mediante validaciones y ajustes en la generación de datos.
+
+En conclusión, el proyecto permitió fortalecer habilidades clave en el desarrollo de software y comprender la importancia de la calidad y coherencia de los datos en un sistema.

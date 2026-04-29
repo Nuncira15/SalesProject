@@ -1,0 +1,5 @@
+1;Laptop;6564
+2;Mouse;7516
+3;Teclado;4901
+4;Monitor;6073
+5;Impresora;9538
